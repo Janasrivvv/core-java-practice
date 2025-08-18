@@ -13,6 +13,8 @@
 3. Can we overload constructors?  
 4. What happens if only parameterized constructor is defined?  
 5. Why use private constructor?  
+  Used to restrict object creation from outside the class.
+  Common use case: Singleton Design Pattern (only one object should exist).
 
 ## Code Examples
 - [Class and Object](ClassAndObject.java)
