@@ -18,7 +18,7 @@
 
 ## Code Examples
 - [Class and Object](Day1/ClassAndObject.java)
-- [Default Constructor](ConstructorDefault.java)
-- [Parameterized Constructor](ConstructorParameterized.java)
-- [Constructor Overloading](ConstructorOverloading.java)
-- [Singleton with Private Constructor](SingletonPrivateConstructor.java)
+- [Default Constructor](Day1/ConstructorDefault.java)
+- [Parameterized Constructor](Day1/ConstructorParameterized.java)
+- [Constructor Overloading](Day1/ConstructorOverloading.java)
+- [Singleton with Private Constructor](Day1/SingletonPrivateConstructor.java)
