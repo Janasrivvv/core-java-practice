@@ -17,7 +17,7 @@
   Common use case: Singleton Design Pattern (only one object should exist).
 
 ## Code Examples
-- [Class and Object](ClassAndObject.java)
+- [Class and Object](Day1/ClassAndObject.java)
 - [Default Constructor](ConstructorDefault.java)
 - [Parameterized Constructor](ConstructorParameterized.java)
 - [Constructor Overloading](ConstructorOverloading.java)
