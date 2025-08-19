@@ -19,7 +19,7 @@
 [ThisKeyword.java](ThisKeyword.java)
 
 ---
-# 'super' Keyword in Java
+# `super` Keyword in Java
 
 The `super` keyword is used to refer to the parent class in Java.
 
