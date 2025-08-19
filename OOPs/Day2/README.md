@@ -59,15 +59,11 @@ This helps in:
 - Ensuring initialization happens in a sequence
 - Reusing constructor logic
 
----
-
 ## 🔑 Key Points
 - `this()` → used to call another constructor in the **same class**.
 - `super()` → used to call the constructor of the **parent class**.
 - If `super()` is not explicitly written, Java adds it automatically (calls the default parent constructor).
 - Must be the **first statement** in the constructor.
-
----
 
 ## 📌 Example Code
 [ConstructorChaining.java](ConstructorChaining.java)
