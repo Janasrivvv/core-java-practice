@@ -46,6 +46,6 @@ obj.display();
 Commonly used in method chaining or when the object is not reused.
 
 ### Code Examples:
-AnonymousObject.java
+[Anonymous Object](AnonymousObject.java)
 
 ---
