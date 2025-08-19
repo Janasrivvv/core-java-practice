@@ -1,0 +1,22 @@
+# `this` Keyword in Java  
+
+### 📖 Summary  
+- `this` is a reference variable pointing to the current object of a class.  
+- It can be used inside **constructors** and **instance methods**.  
+- Not allowed in **static methods**.  
+
+### 🔑 Key Uses
+1. Differentiate between **instance** and **local variables**.  
+2. Invoke another constructor in the same class (`this()`) – **constructor chaining**.  
+3. Pass the current object as an argument to another method.  
+4. Invoke current object’s methods explicitly.  
+
+### ⚡ Difference
+- `this` → Reference to current object.  
+- `this()` → Calls another constructor.  
+
+---
+
+### 💻 Code Example
+[ThisKeyword.java](ThisKeyword.java)
+
