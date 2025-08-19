@@ -19,3 +19,18 @@
 
 ### 💻 Code Example
 [ThisKeyword.java](ThisKeyword.java)
+
+
+## 'super' Keyword in Java
+
+The `super` keyword is used to refer to the parent class in Java.
+
+### Key Uses:
+- Access parent variables
+- Call parent methods
+- Call parent constructors
+
+### Code Examples:
+- [Access Parent Variable](SuperVariable.java)
+- [Call Parent Method](SuperMethod.java)
+- [Call Parent Constructor](SuperConstructor.java)
