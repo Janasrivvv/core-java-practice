@@ -34,3 +34,12 @@ The `super` keyword is used to refer to the parent class in Java.
 - [Access Parent Variable](SuperVariable.java)
 - [Call Parent Method](SuperMethod.java)
 - [Call Parent Constructor](SuperConstructor.java)
+
+## Anonymous Object:
+new Child().display(); → creates anonymous object (no reference).
+Object is used once → eligible for garbage collection immediately.
+### Equivalent to:
+Child obj = new Child();
+obj.display();
+### Uses:
+Commonly used in method chaining or when the object is not reused.
