@@ -28,3 +28,10 @@ public class ConstructorChaining {
         new Employee();
     }
 }
+/*
+Parameterized constructor called: Unknown, 18
+Default constructor called
+
+Person constructor
+Employee constructor
+*/
