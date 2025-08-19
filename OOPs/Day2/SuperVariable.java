@@ -16,6 +16,7 @@ public class SuperVariable {
         new Child().display();
     }
 }
-//
+/*
 Child value: 20
 Parent value: 10
+*/
