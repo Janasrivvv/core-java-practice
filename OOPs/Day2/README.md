@@ -49,3 +49,27 @@ Commonly used in method chaining or when the object is not reused.
 [Anonymous Object](AnonymousObject.java)
 
 ---
+# Constructor Chaining in Java
+
+Constructor chaining is the process of calling one constructor from another **within the same class** using `this()`,  
+or calling the **parent class constructor** using `super()`.
+
+This helps in:
+- Avoiding duplicate code
+- Ensuring initialization happens in a sequence
+- Reusing constructor logic
+
+---
+
+## 🔑 Key Points
+- `this()` → used to call another constructor in the **same class**.
+- `super()` → used to call the constructor of the **parent class**.
+- If `super()` is not explicitly written, Java adds it automatically (calls the default parent constructor).
+- Must be the **first statement** in the constructor.
+
+---
+
+## 📌 Example Code
+[ConstructorChaining.java](ConstructorChaining.java)
+
+---
