@@ -1,54 +1,76 @@
-📘 Java Hello World Program – Notes
-1. Code
+# 📘 Java Hello World Program – Detailed Notes
+
+## 1. Program Code
+```java
 public class Main {
     public static void main(String[] args) {
         System.out.println("Hello World");
     }
 }
+````
 
-2. Explanation
-🔹 public class Main {
+---
 
-public → Access modifier (visible everywhere).
+## 2. Line-by-Line Explanation
 
-class → Keyword to define a class (blueprint/container of code).
+### 🔹 `public class Main {`
 
-Main → Class name (file should be Main.java).
+* **public** → Access modifier, visible from anywhere.
+* **class** → Declares a class (a fundamental building block in Java).
+* **Main** → Class name. By convention, the filename must match (`Main.java`).
 
-🔹 public static void main(String[] args) {
+---
 
-public → JVM can access this method from anywhere.
+### 🔹 `public static void main(String[] args) {`
 
-static → Belongs to the class, no object needed.
+* **public** → The JVM must access this method externally.
+* **static** → Method belongs to the class, not an instance (no object creation needed).
+* **void** → Return type indicating nothing is returned.
+* **main** → The special entry point that JVM searches for when execution begins.
+* **String\[] args** → Array of strings storing command-line arguments.
 
-void → Return type = nothing.
+  * Example: `java Main hello jana` → `args[0] = "hello"`, `args[1] = "jana"`.
 
-main → Special method name recognized by JVM as the starting point.
+---
 
-String[] args → Array of strings = command-line arguments.
+### 🔹 `System.out.println("Hello World");`
 
-🔹 System.out.println("Hello World");
+* **System** → A core Java class in `java.lang` package.
+* **out** → A static member of `System`, an instance of `PrintStream`.
+* **println()** → Prints output followed by a newline.
+* **"Hello World"** → A string literal to be printed.
 
-System → Built-in Java class in java.lang.
+---
 
-out → Static variable of type PrintStream (represents console output).
+### 🔹 Closing Braces `}`
 
-println() → Prints text + moves cursor to next line.
+* The first `}` terminates the `main` method.
+* The second `}` terminates the `Main` class.
 
-"Hello World" → String literal printed to console.
+---
 
-🔹 }
+## 3. Execution Workflow
 
-First } → Ends the main method.
+1. **Compilation**
 
-Second } → Ends the Main class.
+   ```
+   javac Main.java
+   ```
 
-3. Execution Flow
+   Produces a bytecode file `Main.class`.
 
-Compile: javac Main.java → Generates Main.class.
+2. **Execution**
 
-Run: java Main → JVM calls public static void main(String[] args).
+   ```
+   java Main
+   ```
 
-Output:
+   JVM invokes the `main` method.
 
-Hello World
+3. **Output**
+
+   ```
+   Hello World
+   ```
+
+---
