@@ -58,8 +58,8 @@ public class Main {
    ```
 
    Produces a bytecode file `Main.class`.
-
-2. **Execution**
+   
+3. **Execution**
 
    ```
    java Main
@@ -67,7 +67,7 @@ public class Main {
 
    JVM invokes the `main` method.
 
-3. **Output**
+4. **Output**
 
    ```
    Hello World
