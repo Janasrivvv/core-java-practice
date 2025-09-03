@@ -12,7 +12,7 @@ Each topic has:
 ## 📌 Topics
 1. Class, Object & Constructor ✅  
 2. this & super 🔜  
-3. OOPs Concepts *(planned)*  
+3. OOPs Concepts   
 4. Collections *(planned)*  
 5. Exception Handling *(planned)*  
 6. Java 8+ Features *(planned)*  
